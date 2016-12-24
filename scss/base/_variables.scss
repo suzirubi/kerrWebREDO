@@ -1,0 +1,73 @@
+// Descriptive Base Colors
+
+$white          : #fff;
+$black          : #0b0b0b;
+$grey           : #797e83;
+// $dark-gray:     : #333;
+
+
+$kerrGreen      : #004126;
+$kerrGold       : #998844;
+$kerrAccent     : #cccc00;
+
+$action-color: $kerrAccent;
+$sliding-panel-border-color: darken($kerrGreen,10%);
+$sliding-panel-background: rgba($kerrGreen, 0.9);
+$sliding-panel-color: darken($kerrGreen, 5%);
+$sliding-panel-border: 1px solid $sliding-panel-border-color;
+$sliding-panel-background-hover: rgba($kerrGold,0.15);
+$sliding-panel-color-hover: rgba($kerrGold,0.15);
+$sliding-panel-background-focus: rgba($sliding-panel-background, 0.25);
+
+
+// Base font size
+
+$base__font-size : 16px;
+$base__line      : 24px;
+
+
+// Font stacks
+
+$font-url--google         : "https://fonts.googleapis.com/css?family=Roboto+Slab:400,700";
+
+
+
+// Asset paths
+
+$path-img  : '../img';
+$path-font : '../fonts';
+
+// Calendar grid border
+
+$border-calendar : 1px solid $white;
+
+
+
+// Breakpoints
+
+// Media queries
+
+// $brk-narrow   : '(max-width: 768px)';
+// $brk-medium   : '(max-width:960px)';
+// $brk-wide     : '(max-width:1240px)';
+
+
+// @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+
+/* Smartphones (landscape) ----------- */
+// @media only screen and (min-width : 321px)
+/* Styles */
+
+
+/* Smartphones (portrait) ----------- */
+// @media only screen and (max-width : 320px)
+/* Styles */
+
+/* Desktops and laptops ----------- */
+// @media only screen  and (min-width : 1224px)
+/* Styles */
+
+
+/* Large screens ----------- */
+// @media only screen  and (min-width : 1824px)
+/* Styles */
