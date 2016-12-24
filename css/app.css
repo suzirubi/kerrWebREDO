@@ -198,7 +198,7 @@ th {
 
 body {
   counter-reset: ol;
-  background-color: #004126; }
+  background-color: #998844; }
 
 h1 h2 h3 h4 h5 h6 {
   margin: 0;
@@ -484,9 +484,7 @@ main h2 {
     display: block; }
 
 header {
-  -webkit-filter: drop-shadow(3px 0px 4px #808489);
-  filter: drop-shadow(3px 0px 4px #808489);
-  background: #004126;
+  background: #fff;
   width: 100vw;
   height: 8.5vh;
   margin: 0;
@@ -497,73 +495,106 @@ header {
   z-index: 1000; }
 
 .navBar {
+  border: 1px solid red;
   width: 100%;
   height: 8.5vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0;
-  padding: .25em 0em 0em 0em; }
+  padding: 0em 0em 0em 0em; }
 
-.navBar .logo {
-  width: 12%;
+.logoBar {
+  width: 33.3333333%;
   height: 100%;
   align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-right: 0;
   padding: 0; }
-  .navBar .logo a {
-    margin: 0;
-    padding: 0; }
-  .navBar .logo svg {
-    -webkit-filter: drop-shadow(3px 1px 1px #002817);
-    filter: drop-shadow(3px 1px 1px #002817);
-    width: 90%;
-    max-width: 3em;
-    height: 90%;
+
+.logo {
+  align-self: center;
+  width: 13%;
+  height: 100%;
+  max-width: 4.5em;
+  margin-right: 1em;
+  padding: 0; }
+  .logo svg {
+    -webkit-filter: drop-shadow(1px 1px 0.5px #54585b);
+    filter: drop-shadow(1px 1px 0.5px #54585b);
+    width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0; }
 
 .name {
-  width: 60%;
-  height: 60%;
   align-self: center;
+  width: 87%;
+  height: 100%;
   margin: 0;
   padding: 0; }
-  .name a {
-    margin: 0;
-    padding: 0; }
-  .name svg {
-    -webkit-filter: drop-shadow(3px 1px 1px #002817);
-    filter: drop-shadow(3px 1px 1px #002817);
-    width: 90%;
-    max-width: 20em;
-    height: 90%;
+  .name a svg {
+    -webkit-filter: drop-shadow(1px 1px 0.5px #232526);
+    filter: drop-shadow(1px 1px 0.5px #232526);
+    width: 100%;
+    max-width: 22.5em;
+    height: 100%;
     text-align: center;
     margin: 0;
     padding: 0; }
+
+.largeNav {
+  border: 1px solid red;
+  width: 66.66666666%;
+  height: 100%;
+  align-self: center;
+  margin: 0em;
+  padding: 0; }
+  .largeNav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-self: center;
+    margin: 0;
+    padding: 0; }
+    .largeNav ul li {
+      text-align: right;
+      align-self: center;
+      width: 16.6666666666%;
+      height: 100%;
+      margin: 0;
+      padding: 0; }
+    .largeNav ul a {
+      align-self: center;
+      font-family: "PreloSlabMedium", "Georgia", "Cambria", "Times New Roman", "Times", serif, serif;
+      font-size: 1em;
+      line-height: 1.5;
+      color: #797e83; }
 
 .dropdown-container {
   width: 0%; }
 
 .menuIcon {
-  width: 19%;
+  width: 0%;
+  height: 100%;
   align-self: center;
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding-right: .5em; }
-  .menuIcon span {
-    width: 100%; }
-    .menuIcon span a svg {
-      -webkit-filter: opacity(0.7);
-      filter: opacity(0.7);
-      width: 100%;
-      max-width: 3em;
-      margin: 0;
-      padding: 0; }
+  display: flex; }
+  .menuIcon a svg {
+    -webkit-filter: opacity(0.7);
+    filter: opacity(0.7);
+    width: 100%;
+    max-width: 4.5em;
+    min-width: 2.75em;
+    height: 100%;
+    margin: 0;
+    padding: 0; }
 
 footer {
   width: 100vw;
